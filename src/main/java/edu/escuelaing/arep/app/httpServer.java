@@ -77,6 +77,6 @@ public class httpServer {
 		if (System.getenv("PORT") != null) {
 			return Integer.parseInt(System.getenv("PORT"));
 		}
-		return 35000; //returns default port if heroku-port isn't set(i.e. on localhost)
+		return 35100; //returns default port if heroku-port isn't set(i.e. on localhost)
 	}
 }
